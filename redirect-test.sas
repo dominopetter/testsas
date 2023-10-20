@@ -1,4 +1,4 @@
-proc printto print='/mnt/artifacts/sas-logs' new;
+proc printto print='/mnt/artifacts/sas-redirect-logs' new;
 run;
 
 proc print data=test_scores;
